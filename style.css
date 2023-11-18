@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+}
+
+header .logo img {
+  height: 80px;
+}
+
+header .logo h3 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+header img {
+  width: 40px;
+  margin: 20px;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-area {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-area .hero-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(16, 16, 73);
+}
+
+.hero-writing h1 {
+  margin-bottom: 20px;
+  line-height: 10px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 100px;
+  color: white;
+}
+
+.hero-writing p {
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-size: 16px;
+  color: white;
+}
+
+.button-area {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 50px;
+}
+
+button {
+  padding: 20px 40px;
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+.red-button {
+  background: rgb(226, 69, 69);
+  color: white;
+}
+
+.white-button {
+  background: white;
+}
+
+.blue-button {
+  background: rgb(16, 16, 73);
+  color: white;
+}
+
+.hero-image {
+  background: rgb(88, 221, 181);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-area {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-area img {
+  margin: 50px 10px;
+  height: 400px;
+}
+
+.experience-description h2{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 70px;
+  color: rgb(16, 16, 73);
+}
+
+.experience-description p{
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-size: 16px;
+  color: rgb(16, 16, 73);
+
+}
+
+footer {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 200;
+}
